@@ -8,7 +8,7 @@ These steps are similar to what the "Rebase and Merge" action does on github. \(
 
 ### Objective
 
-This guide will show you how to rebase \(rebuild\) a feature branch to begin at the current HEAD of the master branch. Think of it as if you are starting a new branch based on the current master and pasting all of your commits to the new branch.
+This guide will show you how to rebase \(rebuild\) a feature branch to begin at the current HEAD of the main branch. Think of it as if you are starting a new branch based on the current main and pasting all of your commits to the new branch.
 
 ![](../.gitbook/assets/git-rebase.svg)
 
@@ -28,20 +28,20 @@ Be careful when rebasing a branch that has already been pushed to a remote \(pub
 ### Getting Started
 
 1. Make sure all changes are committed to your feature branch
-2. You will need to update your local master branch
-   * `> git checkout master`
-   * `> git pull origin master`
+2. You will need to update your local main branch
+   * `> git checkout main`
+   * `> git pull origin main`
 3. Go back to your feature branch
    * `> git checkout feature-branch`
-4. Now we can rebase the feature branch onto `master`
+4. Now we can rebase the feature branch onto `main`
 
-   * `> git rebase master` 
+   * `> git rebase main` 
 
    > First, rewinding head to replay your work on top of it... 
    >
    > Applying: added staged command
 
-5. Your commits will now show in the git log after the commits merged from master
+5. Your commits will now show in the git log after the commits merged from main
 
 ### Review of 2 merge strategies
 
