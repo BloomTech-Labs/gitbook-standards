@@ -1,6 +1,6 @@
 # Data Persistence
 
-### \(DP-100\) Managed Services Only
+### (DP-100) Managed Services Only
 
 Only fully managed storage services are to be used for hosting a database in a shared environment.
 
@@ -12,14 +12,14 @@ Exceptions:
 
 * None
 
-### \(DP-200\) Approved Database Engines
+### (DP-200) Approved Database Engines
 
 Only the following database engines are approved for projects in Labs:
 
-| Engine | Permitted Versions | Providers |
-| :--- | :--- | :--- |
-| Postgres | &gt; 11.5.0 | AWS RDS |
-|  | Heroku Postgres |  |
+| Engine   | Permitted Versions | Providers |
+| -------- | ------------------ | --------- |
+| Postgres | > 11.5.0           | AWS RDS   |
+|          | Heroku Postgres    |           |
 
 All other database engines are prohibited, including:
 
@@ -27,9 +27,8 @@ All other database engines are prohibited, including:
 
 Rationale:
 
-* We restrict database engine use in Lambda Labs so that we can focus our resources on a subset of available technologies. By narrowing the field of choices, we feel that product quality will be improved through the sharing of common knowledge and reusable components.
+* We restrict database engine use in BloomTech Labs so that we can focus our resources on a subset of available technologies. By narrowing the field of choices, we feel that product quality will be improved through the sharing of common knowledge and reusable components.
 
 Exceptions:
 
 * None
-

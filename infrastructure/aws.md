@@ -1,10 +1,10 @@
 # AWS
 
-### \(AW-100\) Approved AWS Regions
+### (AW-100) Approved AWS Regions
 
-The only permitted AWS region for Lambda School Labs projects are listed below:
+The only permitted AWS region for BloomTech Labs projects are listed below:
 
-* us-east-1 \(N. Virginia\)
+* us-east-1 (N. Virginia)
 
 This is the only region that is connected to github for app deployments. Any deployed services in other regions may be shut down without notice by automation.
 
@@ -20,12 +20,12 @@ Exceptions:
 
 * None
 
-### \(AW-200\) Approved AWS Services
+### (AW-200) Approved AWS Services
 
-The only permitted AWS services for Lambda School Labs projects are listed below:
+The only permitted AWS services for BloomTech School Labs projects are listed below:
 
 * Amplify
-  * Front-end hosting of Single Page Apps \(SPA\) only
+  * Front-end hosting of Single Page Apps (SPA) only
 * Elastic Beanstalk
   * Data Science API deployments only
 * Sagemaker
@@ -51,13 +51,11 @@ Exceptions:
 
 * None
 
-### \(AW-300\) Resource Naming
+### (AW-300) Resource Naming
 
 The following naming conventions must be followed:
 
 * IAM Users
-  * Username _must_ be the student's `lambdastudents.com` email address in lowercase
-    * `jessica-graham@lambdastudents.com`
   * A `Name` tag must be applied with the student's full name
     * Jessica Graham
 * Amplify Application
@@ -92,4 +90,3 @@ Alternatives:
 Exceptions:
 
 * None
-

@@ -1,16 +1,16 @@
 # Github
 
-## \(GH-100\) One GitHub Organization
+## (GH-100) One GitHub Organization
 
-Code for all student GitHub projects must be stored in the [Lambda School Labs GitHub organization](https://github.com/Lambda-School-Labs)
+Code for all student GitHub projects must be stored in the [BloomTech Labs GitHub organization](https://github.com/bloomtech-labs)
 
 Rationale:
 
 * Centralizing code into a single organization allows for easier management.
 
-## \(GH-101\) Organization Roles
+## (GH-101) Organization Roles
 
-Lambda School staff and APLs will have the `Owner` role. All other organization members will have the `Member` role.
+BloomTech staff will have the `Owner` role. All other organization members will have the `Member` role.
 
 Rationale:
 
@@ -20,11 +20,11 @@ Exceptions:
 
 * None
 
-## \(GH-102\) GitHub Cohort Admin Teams
+## (GH-102) GitHub Cohort Admin Teams
 
 Each Labs cohort must have a corresponding GitHub Cohort Admin team named as follows:
 
-* `<Cohort> - Admins` \(Example: `Labs 20 - Admins`\)
+* `<Cohort> - Admins` (Example: `Labs 20 - Admins`)
 
 Team structure:
 
@@ -39,31 +39,31 @@ Exceptions:
 
 * None
 
-## \(GH-200\) Dedicated GitHub Teams
+## (GH-200) Dedicated GitHub Teams
 
-Each project team will have its own dedicated GitHub team within the Lambda School Labs organization. Each team should be named as follows:
+Each project team will have its own dedicated GitHub team within the BloomTech Labs organization. Each team should be named as follows:
 
-`<Cohort> - <Product> - <Team Letter>` \(Example: `Labs 20 - Brew Plans - C`\)
+`<Cohort> - <Product> - <Team Letter>` (Example: `Labs 20 - Brew Plans - C`)
 
 ## Team structure
 
-| Member | Role |
-| :--- | :--- |
-| APL | Maintainer |
-| TPL | Admin |
-| Student | Member |
+| Member  | Role       |
+| ------- | ---------- |
+| APL     | Maintainer |
+| TPL     | Admin      |
+| Student | Member     |
 
 * Repositories: All repositories related to the cohort
 
 Rationale:
 
-* Project-specific teams allow for easier application of precise \(least privilege\) permissions as well as easier provisioning and de-provisioning as cohorts begin and end.
+* Project-specific teams allow for easier application of precise (least privilege) permissions as well as easier provisioning and de-provisioning as cohorts begin and end.
 
 Exceptions:
 
 * None
 
-## \(GH-300\) GitHub Repo Naming
+## (GH-300) GitHub Repo Naming
 
 GitHub repos shall be named in all lowercase using the following convention:
 
@@ -82,24 +82,24 @@ GitHub repos shall be named in all lowercase using the following convention:
 
 ### Examples
 
-| Product | Team Letter | Purpose | Postfix | Repo Name |
-| :--- | :--- | :--- | :--- | :--- |
-| EcoSoap | A | Front-end SPA |  | ecosoap-a-fe |
-| Brew Plans | B | iOS App |  | brew-plans-b-ios |
-| Megamind | D | DS API |  | megamind-d-ds |
-| Megamind | D | Jupyter Notebook | Jupyter | megamind-d-ds-jupyter |
+| Product    | Team Letter | Purpose          | Postfix | Repo Name             |
+| ---------- | ----------- | ---------------- | ------- | --------------------- |
+| EcoSoap    | A           | Front-end SPA    |         | ecosoap-a-fe          |
+| Brew Plans | B           | iOS App          |         | brew-plans-b-ios      |
+| Megamind   | D           | DS API           |         | megamind-d-ds         |
+| Megamind   | D           | Jupyter Notebook | Jupyter | megamind-d-ds-jupyter |
 
 Rationale:
 
-* GitHub repositories have no mechanism for storing metadata, so the product
+*   GitHub repositories have no mechanism for storing metadata, so the product
 
-  name and purpose must be encoded in the repo name.
+    name and purpose must be encoded in the repo name.
 
 Exceptions:
 
 * None
 
-## \(GH-310\) GitHub Templates
+## (GH-310) GitHub Templates
 
 All new GitHub repositories must be created using the appropriate Labs Scaffolding:
 
@@ -115,14 +115,14 @@ Exceptions:
 
 * None
 
-## \(GH-311\) Require GitHub Branch Protection setup for the `main` branch
+## (GH-311) Require GitHub Branch Protection setup for the `main` branch
 
 All GitHub repositories must be setup with [branch protection](https://help.github.com/en/github/administering-a-repository/about-protected-branches) enabled for the `main` branch as follows:
 
-* Required approving reviews: 2 \(or more\)
-* Require status checks to be passing before merging \(enabled\)
-  * Require branches to be up to date before merging \(enabled\)
-* Include administrators \(enabled\)
+* Required approving reviews: 2 (or more)
+* Require status checks to be passing before merging (enabled)
+  * Require branches to be up to date before merging (enabled)
+* Include administrators (enabled)
 
 Rationale:
 
@@ -132,24 +132,24 @@ Exceptions:
 
 * None
 
-## \(GH-320\) GitHub Repo Licensing
+## (GH-320) GitHub Repo Licensing
 
 The README in the root of each GitHub repository must advertise that the code is maintained under the MIT license.
 
 * There must be a file named LICENSE in the root of the directory using the MIT license format as described here: [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT)
   * Use the year the project was created for the year
-  * Use 'Lambda School' as the copyright holder
+  * Use 'BloomTech' as the copyright holder
 
 Rationale:
 
-* Code written during Labs projects must be maintained as open-source so that it can be reference by hiring managers considering Lambda School students as candidates.
+* Code written during Labs projects must be maintained as open-source so that it can be reference by hiring managers considering BloomTech students as candidates.
 * The MIT license is very permissive and provides opportunities for student developed code to be reused and expanded by the open-source community.
 
 Exceptions:
 
 * None
 
-## \(GH-400\) GitHub Branch Cleanup
+## (GH-400) GitHub Branch Cleanup
 
 Once a branch has been merged into `main` it should be immediately deleted to keep your repository clean and manageable.
 
@@ -162,4 +162,3 @@ Rationale:
 Exceptions:
 
 * None
-
